@@ -7,15 +7,25 @@ body{
 }
 h1{
     text-align: left;
-    background-color: rgb(255, 255, 255);
-    color:rgb(93, 102, 236);
-    margin-top:0 ;
-    padding: 5px 20px;
     font-family: "Kranky", serif;
-    font-weight: 800;
+    /* font-weight: 800; */
     font-style: normal;
           
 }
 h4{
     color:white;
+}
+.top{
+    background-color: rgb(255, 255, 255);
+    color:rgb(93, 102, 236);
+    margin-top:0 ;
+    padding: 5px 20px;
+    display: flex;
+    justify-content:space-around ;
+}
+a{
+    text-decoration: none;
+    color:rgb(93, 102, 236);
+    padding: 5px;
+
 }
