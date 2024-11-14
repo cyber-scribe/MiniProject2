@@ -10,33 +10,23 @@ h1{
     font-family: "Kranky", serif;
     font-style: normal;
     color: #ffffff;
-    padding: 0px 20px;
+    padding: 0px 15px;
           
 }
 h4{
     color:white;
 }
-/* .top{
-    background-color: rgb(255, 255, 255);
-    color:rgb(93, 102, 236);
-    margin-top:0 ;
-    padding: 5px 20px;
-    display: flex;
-    justify-content:space-around ;
-} */
 a{
     text-decoration: none;
     color:rgb(93, 102, 236);
-    padding: 5px;
-    margin: 15px;
-    border-radius: 5px;
-    font-weight: 500;
+    padding: 3px;
+    margin: 10px;
 
 }
 nav{
     color:rgb(93, 102, 236);
     background-color: rgb(255, 255, 255);
-    padding: 8px;
+    padding: 3px;
 }
 a:hover{
     color:#322f88;
