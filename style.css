@@ -19,7 +19,7 @@ h1{
           
 }
 h4{
-    color:white;
+    color:rgb(11, 34, 116);
 }
 a{
     text-decoration: none;
@@ -35,4 +35,7 @@ nav{
 }
 a:hover{
     color:#322f88;
+}
+section{
+    border: solid rgb(93, 102, 236) 0.1pt;
 }
