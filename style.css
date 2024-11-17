@@ -9,6 +9,8 @@ body{
     background-image: url(a.png);
     background-repeat: no-repeat;
     height: 100vh;
+    opacity: 0.7;
+    
 }
 h1{
     text-align: center;
@@ -19,7 +21,7 @@ h1{
           
 }
 h4{
-    color:rgb(11, 34, 116);
+    color:rgb(2, 17, 69);
 }
 a{
     text-decoration: none;
