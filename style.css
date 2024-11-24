@@ -41,3 +41,7 @@ a:hover{
 section{
     border: solid rgb(93, 102, 236) 0.1pt;
 }
+footer a{
+    color: black;
+    
+}
