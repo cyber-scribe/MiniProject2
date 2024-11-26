@@ -15,12 +15,14 @@ body{
 h1{
     text-align: center;
     font-family: "Kranky", serif;
-    font-style: normal;
     color: #ffffff;
-    padding: 0px 15px;
+    /* padding: 0px 15px; */
+    font-size:40px;
           
 }
 h4{
+    padding-top:50px ;
+    font-size:xx-large;
     color:rgb(21, 20, 20);
 }
 a{
@@ -33,7 +35,7 @@ a{
 nav{
     color:rgb(93, 102, 236);
     background-color: rgb(255, 255, 255);
-    padding: 3px;
+    padding: 9px;
 }
 a:hover{
     color:#322f88;
@@ -46,7 +48,12 @@ h6{
     margin: 0;
     height: fit-content;
 }
+
 h6  a{
 color: black;
 font-size: larger;
+}
+.logo{
+    padding: 0px;
+    margin: 0;
 }
