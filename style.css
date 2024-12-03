@@ -1,59 +1,201 @@
-body{
-    margin: auto;
-    padding: auto;
-    background-color: rgb(93, 102, 236);
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.Home{
-    background-image: url(a.png);
-    background-repeat: no-repeat;
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://example.com/your-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     height: 100vh;
-    /* opacity: 0.7; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     
 }
-h1{
-    text-align: center;
-    font-family: "Kranky", serif;
-    color: #ffffff;
-    /* padding: 0px 15px; */
-    font-size:40px;
-          
-}
-h4{
-    padding-top:50px ;
-    font-size:xx-large;
-    color:rgb(21, 20, 20);
-}
-a{
+
+li a{
     text-decoration: none;
-    color:rgb(93, 102, 236);
-    padding: 3px;
-    margin: 10px;
-
+    color: white;
 }
-nav{
-    color:rgb(93, 102, 236);
-    background-color: rgb(255, 255, 255);
-    padding: 9px;
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
 }
-a:hover{
-    color:#322f88;
+.nav-links a:hover{
+    color:lightgreen;
 }
-section{
-    border: solid rgb(93, 102, 236) 0.1pt;
-}
-h6{
-    padding: 5px;
-    margin: 0;
-    height: fit-content;
-}
-
-h6  a{
-color: black;
-font-size: larger;
+li{
+    padding: 2px;
+    border-radius: 3px;
+    border: .5px solid white;
+    margin: 5px;
+    /* width: fit-content ; */
 }
 .logo{
-    padding: 0px;
-    margin: 0;
+ margin-top: 5px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.welcome-box {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    /* background: rgba(0, 0, 0, 0.7);  */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-box h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.welcome-box p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+body {
+    background-image: url('https://t4.ftcdn.net/jpg/02/71/12/01/360_F_271120192_ZDT2FCxH94akiIsOHwVULWnbNzi8Oagn.jpg'); 
+    background-size: cover;         
+    background-position: center;    
+    background-attachment: fixed;   
+    height: 100vh;                  
+    margin: 0;                      
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar .logo h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+.subject-list li:hover {
+    background-color: white;
+    color: black;
+
+}
+.subject-list a:hover{
+    color: black;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 70px; 
+}
+
+.welcome-box h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.welcome-box p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
 }
