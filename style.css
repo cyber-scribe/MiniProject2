@@ -4,22 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-image: url('https://example.com/your-image.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    
-}
-
 li a{
     text-decoration: none;
     color: white;
@@ -53,7 +37,6 @@ li{
 
 
 .welcome-box {
-    background-color: rgba(0, 0, 0, 0.5); 
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -103,6 +86,24 @@ button {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://example.com/your-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5); 
+     */
+
+
+
 body {
     background-image: url('https://t4.ftcdn.net/jpg/02/71/12/01/360_F_271120192_ZDT2FCxH94akiIsOHwVULWnbNzi8Oagn.jpg'); 
     background-size: cover;         
@@ -113,6 +114,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 
@@ -199,3 +201,43 @@ button {
 button:hover {
     background-color: #45a049;
 }
+/* #contact{
+    padding: 5px;
+    text-align: center;
+} */
+.socialbtns, .socialbtns ul, .socialbtns li {
+        padding: 5px;
+        border: none;
+      }
+      
+      .socialbtns li {
+          list-style: none outside none;
+          display: inline-block;
+      }
+      
+      .socialbtns .fa {
+          width: 40px;
+          height: 40px;
+          color:  #ffffff;
+          padding: 10px;
+          /* background-color: #FFF;
+          border: 1px solid #202125;
+          padding-top: 12px;
+          border-radius: 22px; */
+      }
+      .socialbtns .fa:hover {
+          color: #FFF;
+          background-color:  #202125;
+          border: 1px solid  #202125;
+          border-radius: 50%;
+      }
+      .socialbtns li a{
+        text-decoration: none;
+      }
+      #footer{
+        background-color: #202125;
+        margin: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    
