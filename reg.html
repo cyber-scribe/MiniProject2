@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="registration-container">
+        <div class="registration-box">
+            <h1>Register</h1>
+            <form action="register_process.php" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="role">Role:</label>
+                    <select id="role" name="role" required>
+                        <option value="student">Student</option>
+                        <option value="faculty">Faculty</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="Register-btn">Register</button>
+               
+
+            </form>
+
+            <p>Already have an account? <a href="login.html" class="lgn">Login here</a></p>
+        </div>
+    </div>
+    <div id="contact">
+        <h3>Connect with us</h3>
+        <div align="center" class="socialbtns">
+           <ul>
+            <li><a href="https://github.com/cyber-scribe" class="fa fa-lg fa-github"></a></li>
+            <li><a href="https://www.linkedin.com/in/vaidehidubey/" class="fa fa-lg fa-linkedin"></a></li>
+           </ul>
+        </div>
+    </div>
+    <footer> &copy QuizMaster. All rights reserved</footer>
+</body>
+</html>
