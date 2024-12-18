@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Login</h1>
+            <form action="login_process.php" method="post">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                
+            </form>
+            <button onclick="window.location.href='second.html'">Login</button>
+            <button onclick="window.location.href='password.html'">Forgot password</button>
+
+            <p>Don't have an account? <a href="register.html" class="lgn">Register here</a></p>
+        </div>
+    </div>
+    <div id="contact">
+        <h3>Connect with us</h3>
+        <div align="center" class="socialbtns">
+           <ul>
+            <li><a href="https://github.com/cyber-scribe" class="fa fa-lg fa-github"></a></li>
+            <li><a href="https://www.linkedin.com/in/vaidehidubey/" class="fa fa-lg fa-linkedin"></a></li>
+           </ul>
+        </div>
+    </div>
+    <footer> &copy QuizMaster. All rights reserved</footer>
+</body>
+</html>
