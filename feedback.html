@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="f-container">
+        <h1>Provide your feedback here</h1>
+
+        <form id="feedback-form">
+            <label for="quiz-id">Quiz ID:</label>
+            <input type="text" id="quiz-id" name="quiz-id" placeholder="Enter the quiz ID" required>
+
+            <label for="issue-type">Issue Type:</label>
+            <select id="issue-type" name="issue-type" required>
+                <option value="">Select an issue</option>
+                <option value="technical">Technical Issue</option>
+                <option value="content">Content Issue</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="feedback">Feedback/Report:</label>
+            <textarea id="feedback" name="feedback" rows="5" placeholder="Describe the issue or provide your feedback" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+     
+        <div id="faculty-review" style="margin-top: 30px;">
+            <h2>Faculty Review</h2>
+            <p>Submissions will appear here for faculty review and improvement suggestions.</p>
+            <ul id="feedback-list">
+            
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        const feedbackForm = document.getElementById('feedback-form');
+        const feedbackList = document.getElementById('feedback-list');
+
+        feedbackForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const quizId = document.getElementById('quiz-id').value;
+            const issueType = document.getElementById('issue-type').value;
+            const feedbackText = document.getElementById('feedback').value;
+
+            const feedbackItem = document.createElement('li');
+            feedbackItem.innerHTML = `
+                <strong>Quiz ID:</strong> ${quizId}<br>
+                <strong>Issue Type:</strong> ${issueType}<br>
+                <strong>Feedback:</strong> ${feedbackText}
+            `;
+            feedbackList.appendChild(feedbackItem);
+
+            feedbackForm.reset();
+            alert('Feedback submitted successfully!');
+        });
+    </script>
+    <div id="contact">
+        <h3>Connect with us</h3>
+        <div align="center" class="socialbtns">
+           <ul>
+            <li><a href="https://github.com/cyber-scribe" class="fa fa-lg fa-github"></a></li>
+            <li><a href="https://www.linkedin.com/in/vaidehidubey/" class="fa fa-lg fa-linkedin"></a></li>
+           </ul>
+        </div>
+    </div>
+    <footer> &copy QuizMaster. All rights reserved</footer>
+</body>
+</html>
