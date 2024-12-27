@@ -227,3 +227,7 @@ footer{
 /* Feedback Module */
 
 /* Faculty module */
+.containers{
+    display: flex;
+    justify-content: space-around;
+}
