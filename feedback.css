@@ -50,7 +50,6 @@ button {
 button:hover {
     background-color: #0d300e;
 }
-#feedback-form{
-    display: flex;
-    justify-content:space-between;
+.f-container{
+    border: solid 1px black;
 }
