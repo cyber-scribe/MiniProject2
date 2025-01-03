@@ -50,6 +50,7 @@ button {
 button:hover {
     background-color: #0d300e;
 }
-.f-container{
+#feedback-form{
+    padding: 30px;
     border: solid 1px black;
 }
