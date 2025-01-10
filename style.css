@@ -186,14 +186,18 @@ footer{
     padding: 20px;
     flex: 1 1 calc(30% - 40px);
     min-width: 250px;
+    background-color: white;
 }
 .card h3 {
     margin-top: 0px;
-    color: white;
+    color: black;
 }
 .card p {
     margin: 20px;
-    color: white;
+    color: black;
+}
+.card{
+  background-color: white;
 }
 
 /* Registration module */
