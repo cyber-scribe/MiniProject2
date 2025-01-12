@@ -242,4 +242,7 @@ footer{
 .button:hover{
     color: green;
 }
+footer{
+    padding: 9px;
+}
 
