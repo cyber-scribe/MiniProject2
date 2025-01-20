@@ -13,6 +13,11 @@
             <h1>Manage Your Profile</h1>
             <form action="update_profile.php" method="post" enctype="multipart/form-data">
                 <div class="form-group">
+                    <label for="profile-pic">Profile Picture:</label>
+                    <input type="file" id="profile-pic" name="profile-pic">
+                </div>
+
+                <div class="form-group">
                     <label for="name">Full Name:</label>
                     <input type="text" id="name" name="name" value="Current Name" required>
                 </div>
@@ -20,11 +25,6 @@
                 <div class="form-group">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" value="Current Email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="profile-pic">Profile Picture:</label>
-                    <input type="file" id="profile-pic" name="profile-pic">
                 </div>
 
                 <button type="submit" class="update-btn">Save updates</button>
