@@ -164,6 +164,9 @@ footer{
     color: black;
 }
 
+.st{
+    text-decoration: none;
+}
 /* Faculty Dashboard */
 .header {
     background-color: #4CAF50;
