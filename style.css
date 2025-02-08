@@ -163,6 +163,10 @@ footer{
 .subject-list a:hover{
     color: black;
 }
+.paraS{
+     background-color: white;
+     color: black;
+}
 
 .st{
     text-decoration: none;
