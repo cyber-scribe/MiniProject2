@@ -166,10 +166,13 @@ footer{
 .paraS{
      background-color: white;
      color: black;
+     padding: 5px;
 }
 
 .st{
     text-decoration: none;
+    margin: 5px;
+    color: black;
 }
 /* Faculty Dashboard */
 .header {
