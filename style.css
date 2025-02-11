@@ -167,13 +167,15 @@ footer{
      background-color: white;
      color: black;
      padding: 5px;
+     text-align: right;
 }
 
 .st{
     text-decoration: none;
-    margin: 5px;
+    margin-left: 25px;
     padding-left: 15px;
     color: black;
+    
 }
 /* Faculty Dashboard */
 .header {
