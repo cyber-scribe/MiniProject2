@@ -175,6 +175,9 @@ footer{
     color: rgb(255, 255, 255);
     
 }
+.st:hover{
+    color: rgb(63, 46, 144);
+}
 /* Faculty Dashboard */
 .header {
     background-color: #4CAF50;
