@@ -218,9 +218,17 @@ footer{
 }
 
 /* Registration module */
+.registration-container{
+    display: flex;
+    justify-content: center;
+}
 .registration-box{
      height: 80vh ;
      padding: 20px;
+     border: 2px solid;
+     width:350px;
+     text-align: center;
+
 }
 .lgn{
     text-decoration: none;
