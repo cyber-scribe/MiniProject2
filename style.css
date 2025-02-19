@@ -221,13 +221,18 @@ footer{
 .registration-container{
     display: flex;
     justify-content: center;
+    padding: 20px;
+    
 }
 .registration-box{
      height: 80vh ;
      padding: 20px;
-     border: 2px solid;
-     width:350px;
+     /* border: 2px solid; */
+     width:325px;
      text-align: center;
+     background-color: rgba(255, 255, 255, 0.638);
+     border-radius: 6px;
+     color: #202125;
 
 }
 .lgn{
