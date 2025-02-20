@@ -247,9 +247,20 @@ footer{
 }
 
 /* Login module */
+.login-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 .login-box{
-    height: 85vh;
+    height: fit-content;
     padding: 30px;
+    width:325px;
+     text-align: center;
+     background-color: rgba(255, 255, 255, 0.638);
+     border-radius: 6px;
+     color: #202125;
+
 }
 
 /* Reset module */
