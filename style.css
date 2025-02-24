@@ -27,7 +27,7 @@ li a{
 li{
     padding: 2px;
     border-radius: 3px;
-    border: .5px solid white;
+    /* border: .5px solid white; */
     margin: 5px;
 }
 .logo{
@@ -160,7 +160,7 @@ footer{
     color: black;
     border-radius: 3px;
     border: .5px solid #ffffff;
-    width: 500px;
+    padding: 5px;
 
 }
 
