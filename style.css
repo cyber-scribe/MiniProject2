@@ -156,12 +156,16 @@ footer{
 
 /* Student Quiz Dashboard */
 .subject-list a:hover {
-    background-color: white;
-    color: black;
+    
+
+}
+.subject-list a{
+    
+    color: rgb(255, 255, 255);
     border-radius: 3px;
     border: .5px solid #ffffff;
-    padding: 5px;
-
+    padding: 3px;
+   
 }
 
 .paraS{
