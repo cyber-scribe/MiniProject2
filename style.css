@@ -155,10 +155,14 @@ footer{
 
 
 /* Student Quiz Dashboard */
-/* .subject-list a:hover {
-    
-
-} */
+.subject-list a:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 3px;
+    border: .5px solid #ffffff;
+    padding: 3px;
+   
+}
 .subject-list a{
     
     color: rgb(255, 255, 255);
