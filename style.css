@@ -180,16 +180,17 @@ footer{
 
 .st{
     text-decoration: none;
-    margin-left: 25px;
-    padding-left: 15px;
-    color: rgb(255, 255, 255);
-    
-}
-.st:hover{
     color: rgb(0, 0, 0);
     background-color: white;
     border-radius: 3px;
     padding: 5px;
+    margin-left: 25px;
+    /* padding-left: 15px; */
+    
+}
+.st:hover{
+   background-color: #000000;
+   color: white;
 }
 /* Faculty Dashboard */
 .header {
