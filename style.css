@@ -160,7 +160,7 @@ footer{
     color: rgb(255, 255, 255);
     border-radius: 3px;
     border: .5px solid #000000;
-    padding: 3px;
+    padding: 8px;
 }
 .subject-list a{
     
@@ -168,9 +168,12 @@ footer{
     background-color: white;
     border-radius: 3px;
     border: .5px solid #ffffff;
-    padding: 3px;
+    padding: 8px;
     margin: 5px;
      
+}
+.subject-list li{
+    padding: 8px;
 }
 
 .paraS{
