@@ -119,11 +119,13 @@ button {
 button:hover {
     background-color: #2e8633;
 }
+
 .socialbtns, .socialbtns ul, .socialbtns li {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border: none;
+    border-radius: 50%;
   }
   
   .socialbtns li {
@@ -166,6 +168,7 @@ footer{
     border-radius: 3px;
     padding: 5px;
 }
+
 .subject-list a{
     
     color: rgb(0, 0, 0);
