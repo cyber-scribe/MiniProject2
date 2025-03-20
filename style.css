@@ -143,6 +143,7 @@ button:hover {
   .socialbtns .fa:hover {
       color: #FFF;
       background-color:  #202125;
+      /*border:white 2px;*/
       border-radius: 50%;
   }
   .socialbtns li a{
