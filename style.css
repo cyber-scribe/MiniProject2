@@ -1,314 +1,316 @@
 /* Home Page */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Arial', sans-serif;
-    background-image: url('https://t4.ftcdn.net/jpg/02/71/12/01/360_F_271120192_ZDT2FCxH94akiIsOHwVULWnbNzi8Oagn.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    color: white;
-    text-align: center;   
+  margin: 0;
+  padding: 0%;
+  font-family: "Arial", sans-serif;
+  background-image: url("https://t4.ftcdn.net/jpg/02/71/12/01/360_F_271120192_ZDT2FCxH94akiIsOHwVULWnbNzi8Oagn.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
 }
-li a{
-    text-decoration: none;
-    color: white;
+li a {
+  text-decoration: none;
+  color: white;
 }
-.nav-links a{
-    text-decoration: none;
-    color: white;
-    padding: 15px;
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
 }
-.nav-links a:hover{
-    color:lightgreen;
+.nav-links a:hover {
+  color: lightgreen;
 }
-li{
-    padding: 2px;
-    border-radius: 3px;
-    background-color: white;
-    margin: 5px;
+li {
+  padding: 2px;
+  border-radius: 3px;
+  background-color: white;
+  margin: 5px;
 }
-li:hover{
-    background-color: black;
-    color: white;
+li:hover {
+  background-color: black;
+  color: white;
 }
 
-.logo{
- margin-top: 5px;
+.logo {
+  margin-top: 5px;
 }
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    color: white;
-    padding: 40px;
-    border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
 }
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
 }
 p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
 }
 .welcome-box h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 .welcome-box p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
 }
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .navbar .logo h1 {
-    color: white;
-    font-size: 24px;
+  color: white;
+  font-size: 24px;
 }
 
 .nav-links {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
 .nav-links li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .nav-links li a {
-    text-decoration: none;
-    color: rgb(20, 20, 20);
-    font-size: 18px;
-    padding: 10px;
-    transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-size: 18px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
 }
 
 .nav-links li a:hover {
-    background-color: #575757;
-    border-radius: 5px;
+  background-color: #575757;
+  border-radius: 5px;
 }
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 5px 10px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #2e8633;
+  background-color: #2e8633;
 }
 
-.socialbtns, .socialbtns ul, .socialbtns li {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: none;
-    border-radius: 50%;
-  }
-  
-  .socialbtns li {
-      display: inline-block;
-  }
-  
-  .socialbtns .fa {
-      width: 40px;
-      height: 40px;
-      color:#202125;
-      padding: 11px;
-      background-color: #FFF;
-      border-radius: 50%;
-  }
-  .socialbtns .fa:hover {
-      color: #FFF;
-      background-color:  #202125;
-      border-radius: 50%;
-  }
-  .socialbtns li a{
-    text-decoration: none;
-  }
-footer{
-    background-color: #202125;
-    padding: 2px;
-}
-#contact{
-    background-color: #202125;
-    padding: 3px;
+.socialbtns,
+.socialbtns ul,
+.socialbtns li {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
 }
 
+.socialbtns li {
+  display: inline-block;
+}
+
+.socialbtns .fa {
+  width: 40px;
+  height: 40px;
+  color: #202125;
+  padding: 11px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.socialbtns .fa:hover {
+  color: #fff;
+  background-color: #202125;
+  border-radius: 50%;
+}
+.socialbtns li a {
+  text-decoration: none;
+}
+footer {
+  background-color: #202125;
+  padding: 2px;
+}
+#contact {
+  background-color: #202125;
+  padding: 3px;
+}
 
 /* Student Quiz Dashboard */
 .subject-list a:hover {
-    background-color: black;
-    color: rgb(255, 255, 255);
-    border-radius: 3px;
-    padding: 5px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  padding: 5px;
 }
 
-.subject-list a{
-    
-    color: rgb(0, 0, 0);
-    background-color: white;
-    border-radius: 3px;
-    padding: 7px;
-    margin: 5px;
-     
+.subject-list a {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 3px;
+  padding: 7px;
+  margin: 5px;
 }
-.subject-list li{
-    padding: 8px;
+.subject-list li {
+  padding: 8px;
 }
 
-.paraS{
-      padding: 5px;
-     text-align: right;
+.paraS {
+  padding: 5px;
+  text-align: right;
 }
 
-.st{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    background-color: white;
-    border-radius: 3px;
-    padding: 8px;
-    margin-left: 25px;
-
+.st {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 3px;
+  padding: 8px;
+  margin-left: 25px;
 }
-.st:hover{
-   background-color: #000000;
-   color: white;
+.st:hover {
+  background-color: #000000;
+  color: white;
 }
 /* Faculty Dashboard */
 .header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
 }
 .containers {
-    display: table-cell;
-    flex-wrap: wrap;
-    gap: 20px; 
-    justify-content: space-around;
-    padding: 20px;
-    margin: 0 auto; 
+  display: table-cell;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 0 auto;
 }
 .card {
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    margin: 10px;
-    padding: 20px;
-    flex: 1 1 calc(30% - 40px);
-    min-width: 250px;
-    background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  flex: 1 1 calc(30% - 40px);
+  min-width: 250px;
+  background-color: white;
 }
 .card h3 {
-    margin-top: 0px;
-    color: black;
+  margin-top: 0px;
+  color: black;
 }
 .card p {
-    margin: 20px;
-    color: black;
+  margin: 20px;
+  color: black;
 }
-.card{
+.card {
   background-color: white;
 }
 
 /* Registration module */
-.registration-container{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    
+.registration-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
-.registration-box{
-     height: 80vh ;
-     padding: 20px;
-     width:325px;
-     text-align: center;
-     background-color: rgba(255, 255, 255, 0.638);
-     border-radius: 6px;
-     color: #202125;
-
+.registration-box {
+  height: 80vh;
+  padding: 20px;
+  width: 325px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.638);
+  border-radius: 6px;
+  color: #202125;
 }
-.lgn{
-    text-decoration: none;
-    color: rgb(3, 1, 12);
+.lgn {
+  text-decoration: none;
+  color: rgb(3, 1, 12);
 }
-.lgn:hover{
-    color:white
+.lgn:hover {
+  color: white;
 }
-.form-group{
-    padding: 5px;
+.form-group {
+  padding: 5px;
 }
 
 /* Login module */
-.login-container{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.login-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
-.login-box{
-    height: fit-content;
-    padding: 30px;
-    width:325px;
-     text-align: center;
-     background-color: rgba(255, 255, 255, 0.638);
-     border-radius: 6px;
-     color: #202125;
-
+.login-box {
+  height: fit-content;
+  padding: 30px;
+  width: 325px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.638);
+  border-radius: 6px;
+  color: #202125;
 }
 
 /* Reset module */
-.recovery-container{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.recovery-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
-.recovery-box{
-    height: fit-content;
-    padding: 30px;
-    width:325px;
-     text-align: center;
-     background-color: rgba(255, 255, 255, 0.638);
-     border-radius: 6px;
-     color: #202125;
+.recovery-box {
+  height: fit-content;
+  padding: 30px;
+  width: 325px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.638);
+  border-radius: 6px;
+  color: #202125;
 }
 
 /* Feedback Module */
 
 /* Faculty module */
-.containers{
-    display: flex;
-    justify-content: space-around;
+.containers {
+  display: flex;
+  justify-content: space-around;
 }
-.button{
-    text-decoration: none;
-    color: rgb(11, 11, 11);
+.button {
+  text-decoration: none;
+  color: rgb(11, 11, 11);
 }
-.button:hover{
-    color: green;
+.button:hover {
+  color: green;
 }
-footer{
-    padding: 9px;
+footer {
+  padding: 9px;
 }
+/* Profile Module */
 
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
