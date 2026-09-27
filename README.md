@@ -8,3 +8,11 @@ This project demonstrates the implementation of core concepts related to the pro
 - User-friendly interface
 - Efficient functionality
 - Practical implementation of course concepts
+
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
+
+
+
